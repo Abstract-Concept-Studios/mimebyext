@@ -5,14 +5,5 @@ import ballerina/io;
 function testFunction () {
     test:assertTrue(getMIME("txt") == "text/plain" , msg = "Could not lookup `txt` MIME type!");
 
-    var failedMIME = getMIME("not an ext");
-
-    match failedMIME {
-        string failed => {
-            test:assertTrue(false, msg = "Error not returned as expected!");
-        }
-        error success => {
-            test:assertTrue(true, msg = "This cannot fail");
-        }
-    }
+    test:assertTrue((getMIME("not an ext") ?: "failed") == "failed" , msg = "Lookup didn't fail when it should've!");
 }

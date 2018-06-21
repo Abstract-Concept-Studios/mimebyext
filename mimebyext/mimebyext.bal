@@ -6,19 +6,18 @@ documentation {
 
         Example:
          ```
-         string contentType = getMIME("txt");
+         string? contentType = getMIME("txt");
          ```
-         
+
         Where `contentType` will be `text/plain`
 
         P{{ext}} The file extension
         R{{}} The file extension's MIME Content-Type
     }
-public function getMIME(string ext) returns (string|error) {
+public function getMIME(string ext) returns string? {
     if(types.hasKey(ext)){
         return <string>types[ext];
     } else {
-        error err = {message: "Unknown extension"};
-        return err;
+        return ();
     }
 }
