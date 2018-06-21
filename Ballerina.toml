@@ -1,0 +1,5 @@
+[project]
+org-name = "acs"
+version = "1.0.1"
+authors = ["Abstract Concept Studios"]
+keywords = ["MIME", "content", "type", "extension"]

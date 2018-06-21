@@ -1,0 +1,55 @@
+[2018-06-21 13:08:58,065] ERROR {org.ballerinalang.launcher.Main} - [ERROR] Compilation failed. 
+org.ballerinalang.util.exceptions.BallerinaException: [ERROR] Compilation failed.
+	at org.ballerinalang.testerina.core.BTestRunner.lambda$compileAndBuildSuites$34(BTestRunner.java:155)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at org.ballerinalang.testerina.core.BTestRunner.compileAndBuildSuites(BTestRunner.java:140)
+	at org.ballerinalang.testerina.core.BTestRunner.runTest(BTestRunner.java:86)
+	at org.ballerinalang.testerina.core.TestCmd.execute(TestCmd.java:158)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+ 
+[2018-06-21 13:09:13,800] ERROR {org.ballerinalang.launcher.Main} - [ERROR] Compilation failed. 
+org.ballerinalang.util.exceptions.BallerinaException: [ERROR] Compilation failed.
+	at org.ballerinalang.testerina.core.BTestRunner.lambda$compileAndBuildSuites$34(BTestRunner.java:155)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at org.ballerinalang.testerina.core.BTestRunner.compileAndBuildSuites(BTestRunner.java:140)
+	at org.ballerinalang.testerina.core.BTestRunner.runTest(BTestRunner.java:86)
+	at org.ballerinalang.testerina.core.TestCmd.execute(TestCmd.java:158)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+ 
+[2018-06-21 13:09:47,529] ERROR {org.ballerinalang.launcher.Main} - [ERROR] Compilation failed. 
+org.ballerinalang.util.exceptions.BallerinaException: [ERROR] Compilation failed.
+	at org.ballerinalang.testerina.core.BTestRunner.lambda$compileAndBuildSuites$34(BTestRunner.java:155)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at org.ballerinalang.testerina.core.BTestRunner.compileAndBuildSuites(BTestRunner.java:140)
+	at org.ballerinalang.testerina.core.BTestRunner.runTest(BTestRunner.java:86)
+	at org.ballerinalang.testerina.core.TestCmd.execute(TestCmd.java:158)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+ 
+[2018-06-21 13:10:03,123] ERROR {org.ballerinalang.launcher.Main} - [ERROR] Compilation failed. 
+org.ballerinalang.util.exceptions.BallerinaException: [ERROR] Compilation failed.
+	at org.ballerinalang.testerina.core.BTestRunner.lambda$compileAndBuildSuites$34(BTestRunner.java:155)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at org.ballerinalang.testerina.core.BTestRunner.compileAndBuildSuites(BTestRunner.java:140)
+	at org.ballerinalang.testerina.core.BTestRunner.runTest(BTestRunner.java:86)
+	at org.ballerinalang.testerina.core.TestCmd.execute(TestCmd.java:158)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+ 
+[2018-06-21 13:18:23,741] ERROR {org.ballerinalang.launcher.Main} - [ERROR] Compilation failed. 
+org.ballerinalang.util.exceptions.BallerinaException: [ERROR] Compilation failed.
+	at org.ballerinalang.testerina.core.BTestRunner.lambda$compileAndBuildSuites$34(BTestRunner.java:155)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at org.ballerinalang.testerina.core.BTestRunner.compileAndBuildSuites(BTestRunner.java:140)
+	at org.ballerinalang.testerina.core.BTestRunner.runTest(BTestRunner.java:86)
+	at org.ballerinalang.testerina.core.TestCmd.execute(TestCmd.java:158)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+ 
